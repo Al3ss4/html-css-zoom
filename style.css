@@ -8,7 +8,7 @@ body{
     width: 100vw;
     height: 100vh;
     background-color: black;
-   
+
 }
 /******** HEADER ********/
 header{
@@ -71,11 +71,16 @@ main{
 }
 /******** / MAIN ********/
 /******** FOOTER ********/
-footer{
-    background-color: #222222;
+footer>*{
+
     width: calc(100% / 3);
-    padding: 10px 10px;
+}
+
+footer{
+    /* padding: 10px 0; */
     height: 64px;
+    background-color: #222222;
+    display: flex;
 }
 .video{
     display: flex;
@@ -83,21 +88,15 @@ footer{
 }
 
 .button-video{
-    font-size: 28px;
+    font-size: 25px;
     background-color: #222222;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-left: 30px;
-   
-}
 
-/* .button-video .arrow-footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
+}
 
 .arrow-footer-micr{
     font-size: 15px;
@@ -120,5 +119,58 @@ footer{
 }
 
 
+.center-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+
+.share-green{
+    color:#39be02;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    background-color: #222222;
+    display: flex;
+    margin-left: 30px;
+    padding: 0 10px;
+    flex-direction: column;
+}
+.button-user{
+    font-size: 25px;
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px;
+    padding: 0 10px;
+}
+
+.arrow-footer-screen{
+    font-size: 15px;
+    color: white;
+    
+}
+
+.text{
+    font-size: 13px;
+    padding-top: 7px;
+   color: white;
+   align-self: baseline;
+
+}
+
+.right-footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button-footer-right{
+    border: none;
+    background-color: #4a4a4a;
+    color: red;
+    display: inline-block;
+    width: 100px;
+}
 /******** / FOOTER ********/
