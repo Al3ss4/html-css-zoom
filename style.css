@@ -102,7 +102,7 @@ footer{
     font-size: 15px;
     color: white;
     position: absolute;
-    top: 15px;
+    top: 20px;
     left: 70px;
 }
 
@@ -110,7 +110,7 @@ footer{
     font-size: 15px;
     color: white;
     position: absolute;
-    top: 15px;
+    top: 20px;
     left: 165px;
 }
 .text{
@@ -123,6 +123,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 99%
 }
 
 
