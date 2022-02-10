@@ -4,7 +4,36 @@
     box-sizing: border-box;
 }
 
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+   
+}
 /******** HEADER ********/
+header{
+    min-height: 50px;
+    /* background-color: brown; */
+    padding: 5px 15px;
+    justify-content: flex-end;
+    display: flex;
+    color: #dad0c3;
+    align-items: center;
+}
+.view{
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #4a4a4a;
+    padding: 5px 5px;
+}
+
+.arrow{
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #4a4a4a;
+    padding: 5px 5px;
+    margin-left: 10px;
+}
 /******** / HEADER ********/
 /******** MAIN ********/
 /******** / MAIN ********/
