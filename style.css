@@ -14,11 +14,14 @@ body{
 header{
     min-height: 50px;
     /* background-color: brown; */
-    padding: 5px 15px;
+    padding: 0 15px;
     justify-content: flex-end;
     display: flex;
-    color: #dad0c3;
     align-items: center;
+}
+button{
+    border: none;
+    color: #dad0c3;
 }
 .view{
     display: inline-block;
@@ -35,7 +38,38 @@ header{
     margin-left: 10px;
 }
 /******** / HEADER ********/
+
 /******** MAIN ********/
+main{
+    margin:10px 20px;
+}
+
+.user-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 125px;
+    }
+
+.user{
+    width: calc(100% / 7 - 5px);
+    position: relative;
+    margin: 0 5px 10px 0;
+    
+}
+.user img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.name{
+    position: absolute;
+    color: white;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(98, 111, 124, 0.5);
+    padding: 5px 2px;
+}
 /******** / MAIN ********/
 /******** FOOTER ********/
+
 /******** / FOOTER ********/
